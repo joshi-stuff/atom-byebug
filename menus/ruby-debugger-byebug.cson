@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+# 'context-menu':
+#   'atom-text-editor': [
+#     {
+#       'label': 'Toggle ruby-debugger-byebug'
+#       'command': 'ruby-debugger-byebug:toggle'
+#     }
+#   ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Ruby Debugger Byebug'
+      'submenu': [
+        {
+          'label': 'Launch'
+          'command': 'ruby-debugger-byebug:launch'
+        }
+      ]
+    ]
+  }
+]

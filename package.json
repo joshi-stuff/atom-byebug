@@ -1,0 +1,18 @@
+{
+  "name": "ruby-debugger-byebug",
+  "main": "./lib/ruby-debugger-byebug",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "ruby-debugger-byebug:launch"
+  },
+  "repository": "https://github.com/atom/ruby-debugger-byebug",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
