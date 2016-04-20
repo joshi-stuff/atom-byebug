@@ -6,7 +6,10 @@
   "keywords": [
   ],
   "activationCommands": {
-    "atom-workspace": "ruby-debugger-byebug:launch"
+    "atom-workspace": [
+      "ruby-debugger-byebug:launch",
+      "ruby-debugger-byebug:show"
+    ]
   },
   "repository": "https://github.com/atom/ruby-debugger-byebug",
   "license": "MIT",
@@ -14,5 +17,6 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "atom-space-pen-views": "2.2.0"
   }
 }

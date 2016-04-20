@@ -15,6 +15,10 @@
         {
           'label': 'Launch'
           'command': 'ruby-debugger-byebug:launch'
+        },
+        {
+          'label': 'Show'
+          'command': 'ruby-debugger-byebug:show'
         }
       ]
     ]
