@@ -11,12 +11,20 @@
   min-width: 400px;
   max-width: 500px;
 
+  .button-bar {
+    margin: @component-padding 0;
+  }
+
   .tab-bar {
     background: inherit;
-    margin-top: @component-padding;
   }
 
   .tab.active {
     flex: 1;
+  }
+
+  .tab-body {
+    // TODO: calculate this height with JS to adapt to themes
+    min-height: 500px;
   }
 }

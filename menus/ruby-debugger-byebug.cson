@@ -17,8 +17,8 @@
           'command': 'ruby-debugger-byebug:launch'
         },
         {
-          'label': 'Show'
-          'command': 'ruby-debugger-byebug:show'
+          'label': 'Toggle'
+          'command': 'ruby-debugger-byebug:toggle'
         }
       ]
     ]

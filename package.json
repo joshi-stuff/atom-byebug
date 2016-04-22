@@ -1,6 +1,6 @@
 {
   "name": "ruby-debugger-byebug",
-  "main": "./lib/ruby-debugger-byebug",
+  "main": "./lib/main",
   "version": "0.0.0",
   "description": "A short description of your package",
   "keywords": [
@@ -8,7 +8,7 @@
   "activationCommands": {
     "atom-workspace": [
       "ruby-debugger-byebug:launch",
-      "ruby-debugger-byebug:show"
+      "ruby-debugger-byebug:toggle"
     ]
   },
   "repository": "https://github.com/atom/ruby-debugger-byebug",
@@ -17,6 +17,6 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "atom-space-pen-views": "2.2.0"
+    "pty.js": "0.3.0"
   }
 }
