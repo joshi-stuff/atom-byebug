@@ -7,8 +7,8 @@
   ],
   "activationCommands": {
     "atom-workspace": [
-      "ruby-debugger-byebug:launch",
-      "ruby-debugger-byebug:toggle"
+      "ruby-debugger-byebug:toggle",
+      "ruby-debugger-byebug:run"
     ]
   },
   "repository": "https://github.com/atom/ruby-debugger-byebug",
