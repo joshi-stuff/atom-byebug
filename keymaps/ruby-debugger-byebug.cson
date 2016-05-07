@@ -1,5 +1,0 @@
-'atom-workspace':
-  'cmd-alt-b': 'ruby-debugger-byebug:toggle',
-  'f8': 'ruby-debugger-byebug:run',
-  'f10': 'ruby-debugger-byebug:next',
-  'f11': 'ruby-debugger-byebug:step'

@@ -1,5 +1,5 @@
 .DS_Store
 npm-debug.log
 node_modules
-.ruby-debugger-byebug
+.byebug-debugger
 .byebug_history

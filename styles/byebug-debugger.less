@@ -1,11 +1,4 @@
-// The ui-variables file is provided by base themes provided by Atom.
-//
-// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
-// for a full listing of what's available.
 @import "ui-variables";
-
-.ruby-debugger-byebug {
-}
 
 .DebuggerView {
   width: 100%;
@@ -30,5 +23,32 @@
   .tab-body {
     height: 157px - @component-padding;
     overflow-y: auto;
+  }
+}
+
+.OutputPane {
+
+  pre {
+    font-size: 8pt;
+  }
+
+  hr {
+    margin: 10px 0;
+    color: @text-color-subtle;
+  }
+
+  .exit_message {
+
+    &.success {
+      color: @text-color-success;
+    }
+
+    &.warning {
+      color: @text-color-warning;
+    }
+
+    &.error {
+      color: @text-color-error;
+    }
   }
 }

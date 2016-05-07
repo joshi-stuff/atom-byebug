@@ -1,4 +1,4 @@
-# ruby-debugger-byebug
+# byebug-debugger
 
 An [Atom](https://atom.io/) package for integrating with Ruby's [byebug](https://github.com/deivid-rodriguez/byebug) debugger.
 

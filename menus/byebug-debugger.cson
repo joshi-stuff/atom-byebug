@@ -6,15 +6,15 @@
       'submenu': [
         {
           'label': 'Toggle'
-          'command': 'ruby-debugger-byebug:toggle'
+          'command': 'byebug-debugger:toggle'
         },
         {
           'label': 'Run'
-          'command': 'ruby-debugger-byebug:run'
+          'command': 'byebug-debugger:run'
         },
         {
           'label': 'Configure project...'
-          'command': 'ruby-debugger-byebug:configure'
+          'command': 'byebug-debugger:configure'
         }
       ]
     ]

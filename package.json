@@ -1,18 +1,19 @@
 {
-  "name": "ruby-debugger-byebug",
+  "name": "byebug-debugger",
   "main": "./lib/main",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "Integration with Ruby's Byebug Debugger",
   "keywords": [
+    "ruby", "debugger", "byebug"
   ],
   "activationCommands": {
     "atom-workspace": [
-      "ruby-debugger-byebug:toggle",
-      "ruby-debugger-byebug:run"
+      "byebug-debugger:toggle",
+      "byebug-debugger:run"
     ]
   },
-  "repository": "https://github.com/atom/ruby-debugger-byebug",
-  "license": "MIT",
+  "repository": "https://github.com/izaera/ruby-debugger-byebug",
+  "license": "GPL v3",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
