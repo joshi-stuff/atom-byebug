@@ -1,0 +1,22 @@
+{
+  "parser": "babel-eslint",
+  "extends": "eslint:recommended",
+  "env": {
+    "node": true,
+    "browser": true,
+    "es6": true
+  },
+  "globals": {
+    "atom": true
+  },
+  "rules": {
+    "quotes": ["error", "single"],
+    "eol-last": ["off"],
+    "no-mixed-requires": ["off"],
+    "no-underscore-dangle": ["off"],
+    "indent": ["error", 2, {
+      SwitchCase: 1
+    }],
+    "max-len": ["error", 100, 2]
+  }
+}
