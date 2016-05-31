@@ -12,7 +12,7 @@
       "byebug-debugger:run"
     ]
   },
-  "repository": "https://github.com/izaera/ruby-debugger-byebug",
+  "repository": "https://github.com/izaera/atom-byebug",
   "license": "GPL v3",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
