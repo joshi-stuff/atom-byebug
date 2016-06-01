@@ -1,0 +1,16 @@
+#!/usr/bin/env ruby
+require 'byebug'
+require 'byebug/core'
+Byebug.wait_connection = true
+Byebug.start_server('localhost')
+# debugger
+
+puts Dir.pwd
+
+i = 0
+loop do
+  puts i
+  i += 1
+  sleep 2
+  debugger if i % 5 == 1
+end
