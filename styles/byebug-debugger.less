@@ -1,32 +1,32 @@
 @import "ui-variables";
 
 .DebuggerView {
-  width: 100%;
+  display: flex;
+  flex-direction: column;
   height: 240px;
+  padding: @component-padding;
 
-  .header {
+  .toolbar {
     margin-bottom: @component-padding;
+  }
 
-    .title {
-      margin-right: 2 * @component-padding;
+  .body {
+    background-color: @input-background-color;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+
+  .tabs {
+
+    button {
+      outline: none !important;
     }
-  }
-
-  .tab-bar {
-    background: inherit;
-  }
-
-  .tab.active {
-    flex: 1;
-  }
-
-  .tab-body {
-    height: 157px - @component-padding;
-    overflow-y: auto;
   }
 }
 
 .OutputPane {
+  overflow: auto;
 
   pre {
     font-size: 8pt;

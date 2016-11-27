@@ -1,0 +1,5 @@
+"**/*.js":
+  command: [
+    "rm -f tags",
+    "find . -name '*.js' | /usr/local/bin/ctags -a -R --options=/Users/ivan/.atom/ctags.conf --languages=es6 -L -"
+  ]

@@ -14,6 +14,7 @@
     "eol-last": ["off"],
     "no-mixed-requires": ["off"],
     "no-underscore-dangle": ["off"],
+    "no-unused-vars": ["off"],
     "indent": ["error", 2, {
       SwitchCase: 1
     }],
