@@ -1,10 +1,12 @@
 {
   "name": "byebug-debugger",
   "main": "./lib/main",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Integration with Ruby's Byebug Debugger (work in progress)",
   "keywords": [
-    "ruby", "debugger", "byebug"
+    "ruby",
+    "debugger",
+    "byebug"
   ],
   "activationCommands": {
     "atom-workspace": [
