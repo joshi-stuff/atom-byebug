@@ -17,10 +17,27 @@
     flex-grow: 1;
   }
 
-  .tabs {
+  .status-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 
-    button {
-      outline: none !important;
+    .tabs {
+
+      button {
+        outline: none !important;
+      }
+    }
+
+    .state {
+
+      .connection {
+        color: lightgray;
+
+        &.connected {
+          color: @text-color-info;
+        }
+      }
     }
   }
 }
