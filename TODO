@@ -1,0 +1,2 @@
+-Remove terminal escape sequences from output pane
+-Limit output pane buffer so that UI doesn't get bloated
