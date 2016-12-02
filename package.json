@@ -2,7 +2,7 @@
   "name": "byebug-debugger",
   "main": "./lib/main",
   "version": "0.0.0",
-  "description": "Integration with Ruby's Byebug Debugger",
+  "description": "Integration with Ruby's Byebug Debugger (work in progress)",
   "keywords": [
     "ruby", "debugger", "byebug"
   ],
