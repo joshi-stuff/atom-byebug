@@ -1,5 +1,5 @@
 {
-  "name": "byebug-debugger",
+  "name": "atom-byebug",
   "main": "./lib/main",
   "version": "0.1.0",
   "description": "Integration with Ruby's Byebug Debugger (work in progress)",
