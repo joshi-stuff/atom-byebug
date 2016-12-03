@@ -1,7 +1,7 @@
 {
   "name": "atom-byebug",
   "main": "./lib/main",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Integration with Ruby's Byebug Debugger (work in progress)",
   "keywords": [
     "ruby",
