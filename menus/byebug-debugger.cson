@@ -6,15 +6,15 @@
       'submenu': [
         {
           'label': 'Toggle'
-          'command': 'byebug-debugger:toggle'
+          'command': 'atom-byebug:toggle'
         },
         {
           'label': 'Run'
-          'command': 'byebug-debugger:run'
+          'command': 'atom-byebug:run'
         },
         {
           'label': 'Configure project...'
-          'command': 'byebug-debugger:configure'
+          'command': 'atom-byebug:configure'
         }
       ]
     ]

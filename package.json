@@ -10,8 +10,8 @@
   ],
   "activationCommands": {
     "atom-workspace": [
-      "byebug-debugger:toggle",
-      "byebug-debugger:run"
+      "atom-byebug:toggle",
+      "atom-byebug:run"
     ]
   },
   "repository": "https://github.com/izaera/atom-byebug",

@@ -1,5 +1,5 @@
 'atom-workspace':
-  'cmd-alt-b': 'byebug-debugger:toggle',
-  'f8': 'byebug-debugger:run',
-  'f10': 'byebug-debugger:next',
-  'f11': 'byebug-debugger:step'
+  'cmd-alt-b': 'atom-byebug:toggle',
+  'f8': 'atom-byebug:run',
+  'f10': 'atom-byebug:next',
+  'f11': 'atom-byebug:step'

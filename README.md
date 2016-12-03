@@ -11,7 +11,7 @@ responses as if they were used from the command line.
 
 Until the configuration dialog is implemented, you need to create the configuration files by hand following these steps:
 
-1. Create a directory named `.byebug-debugger` in your project's root folder.
+1. Create a directory named `.atom-byebug` in your project's root folder.
 2. Create a `config.json` file inside that directory and add two entries named `executable` and `arguments` to specify the script to run and the arguments to pass.
 
 For example:
@@ -34,7 +34,7 @@ Byebug.start_server('localhost')
 
 ## How to launch Rails in debug mode
 
-To launch a Rails application within byebug debugger, you can create a launch script in your `.byebug-debugger`, configure it as `executable` in `config.json` and set its content to:
+To launch a Rails application within byebug debugger, you can create a launch script in your `.atom-byebug`, configure it as `executable` in `config.json` and set its content to:
 
 ```
 #!/usr/bin/env ruby
@@ -59,7 +59,7 @@ Make it executable if you are not using Windows and have fun.
   1. Clone the [repository](https://github.com/izaera/atom-byebug)
   2. Register the Atom package for development into your Atom installation (add a symbolic link to your cloned repository in your `$HOME/atom/packages` folder.
   3. Start Atom and look for `Byebug Debugger` in the Packages menu.
-  4. Find the sample configuration file `config.json` for the package in the `.byebug-debugger` folder of the package's project. That file specifies the Ruby program to run and the arguments to pass. In the future, a dialog will be available to edit this file.
+  4. Find the sample configuration file `config.json` for the package in the `.atom-byebug` folder of the package's project. That file specifies the Ruby program to run and the arguments to pass. In the future, a dialog will be available to edit this file.
   5. Find the sample Ruby program `sample-ruby-program` in the same folder. This program is executed when the debugger is launched.
 * To develop: choose an issue to develop or create a new one for your feature so that the community doesn't duplicate the work. Hack it, and send a pull request.
 * To test: use and test the package and report any issue you may find.
