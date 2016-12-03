@@ -83,6 +83,25 @@
   }
 
   input {
+  }
+}
 
+.CallStackPane {
+
+  th {
+    padding: .3em .5em;
+    text-transform: uppercase;
+  }
+
+  td {
+    padding: .1em .5em;
+  }
+
+  tr.frame {
+    cursor: pointer;
+
+    &:hover {
+      color: @text-color-info;
+    }
   }
 }
