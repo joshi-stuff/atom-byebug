@@ -1,5 +1,7 @@
 # atom-byebug
 
+## NOTE: THIS PROJECT IS LOOKING FOR SOMEONE TO MAINTAIN IT: THIS IS BECAUSE I HAVE STOPPED USING RUBY IN MY DAILY WORK
+
 An [Atom](https://atom.io/) package for integrating with Ruby's
 [byebug](https://github.com/deivid-rodriguez/byebug) debugger.
 
